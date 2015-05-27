@@ -1,12 +1,11 @@
 package nl.changer.polypicker;
 
-import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,7 +23,7 @@ import java.util.Set;
 import nl.changer.polypicker.model.Image;
 import nl.changer.polypicker.utils.ImageInternalFetcher;
 
-public class ImagePickerActivity extends ActionBarActivity {
+public class ImagePickerActivity extends AppCompatActivity {
 
     /**
      * Key to persist the list when saving the state of the activity.
